@@ -1,0 +1,29 @@
+{
+    "model": "Random Forest",
+    "dataset_rows": 1460,
+    "training_rows": 1168,
+    "testing_rows": 292,
+    "features": [
+        "GrLivArea",
+        "BedroomAbvGr",
+        "FullBath"
+    ],
+    "target": "SalePrice",
+    "mae": 33264.92,
+    "rmse": 49076.82,
+    "r2": 0.686,
+    "model_comparison": [
+        {
+            "model": "Linear Regression",
+            "mae": 35788.06,
+            "rmse": 52975.72,
+            "r2": 0.6341
+        },
+        {
+            "model": "Random Forest",
+            "mae": 33264.92,
+            "rmse": 49076.82,
+            "r2": 0.686
+        }
+    ]
+}
